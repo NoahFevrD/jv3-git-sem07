@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Allo
         playerRb.AddForce(speed * transform.forward, ForceMode.Impulse);
     }
 }
